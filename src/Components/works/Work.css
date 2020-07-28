@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+.cc {
+  
+  background: linear-gradient(
+    -45deg,
+    rgb(141, 54, 54),
+    white,
+    #60377449,
+    #3c159985
+  );
+  background-size: 500% 500%;
+
+  animation: gradient 2s ease infinite;
+
+}
+
+.image-cover{
+  
+}
+
