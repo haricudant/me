@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./Work.css";
 import ImageContentHover from "react-image-hover";
-import SweetAlert from "react-bootstrap-sweetalert";
-import Names from "../Interests/Names.js";
 
 export default class Work extends Component {
   constructor(props) {
@@ -14,25 +12,25 @@ export default class Work extends Component {
           image:
             "https://images.pexels.com/photos/159935/pexels-photo-159935.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           title: "Residental community connect",
-          text: "Connects a residential community with various aspects",
+          test: "Connects a residential community with various aspects",
         },
         {
           image:
             "https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           title: "The Home Chef",
-          text: "An app for culinary enthusiasts",
+          test: "An app for culinary enthusiasts",
         },
         {
           image:
             "https://images.pexels.com/photos/933620/pexels-photo-933620.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           title: "Charitable trust",
-          text: "A website for charitable trust",
+          test: "A website for charitable trust",
         },
         {
           image:
             "https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           title: "Contact Manager",
-          text: "A website that displays the contact details",
+          test: "A website that displays the contact details",
         },
       ],
     };
@@ -55,12 +53,12 @@ export default class Work extends Component {
           <div class="row">
             {contents.length
               ? contents.map((content) => (
-                  <div class="column">
-                    <div class="item">
+                  <div class="col">
+                    <div class="">
                       <ImageContentHover
-                        className="image-cover text-center"
-                        tileWidth="285px"
-                        tileHeight="290px"
+                        className="image-cover  bg-transparent container text-center"
+                        tileWidth="200px"
+                        tileHeight="200px"
                         image={content.image}
                         style={{ width: "100%", height: "100%" }}
                         content={{
@@ -70,28 +68,18 @@ export default class Work extends Component {
                             </h4>
                           ),
                           body: (
-                            <a href="https://www.linkedin.com/jobs/view/1921414792/">
-                              Click
-                            </a>
+                            <div
+                              class="btn btn-light light"
+                              href="https://www.linkedin.com/jobs/view/1921414792/"
+                            >
+                              <i class="x fa fa-eye" aria-hidden="true"></i>
+                            </div>
                           ),
-                          text:( <p>{content.text}</p>),
                         }}
                         effect="slideHorizontal"
                         a
                       />
                       <div></div>
-                      <div class="modal" id="myModal">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title">Modal Title</h5>
-                              <button class="close" data-dismiss="modal">
-                                &times;
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 ))
