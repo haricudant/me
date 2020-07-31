@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Jumbotron.css";
+import { baby } from './bby.png';
 
 export default class Jumbotron extends Component {
   render() {
@@ -10,8 +11,9 @@ export default class Jumbotron extends Component {
         </h2>
         <div class="text-center font">
           <img
-            src="https://www.iconsdb.com/icons/preview/white/stroller-xxl.png"
+            src="https://image.flaticon.com/icons/svg/822/822123.svg"
             style={{ height: "80px", width: "80px" }}
+            alt="baby"
           ></img>
           <h3>
             {" "}
