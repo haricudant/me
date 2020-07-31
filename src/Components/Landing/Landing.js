@@ -4,11 +4,11 @@ import Typical from "react-typical";
 import Clock from "react-live-clock";
 import Jumbotron from "../Jumbotron/Jumbotron";
 import { NavButton, PlusButton } from "react-svg-buttons";
-import { Route, Link, BrowserRouter, Switch } from "react-router-dom";
+// import { Route, Link, BrowserRouter, Switch } from "react-router-dom";
 export default class Landing extends Component {
   render() {
     return (
-      <BrowserRouter>
+      
         <div class="landing container-fluid jumbotronBG">
           <div class="container jumbotronBG">
             <div class="text-center">
@@ -29,7 +29,7 @@ export default class Landing extends Component {
             </div>
 
             <div class="container-fluid jumbotronBG text-center">
-              <Link to={"Jumbotron"}>
+              
                 <NavButton
                   direction="down"
                   type="arrowDown"
@@ -38,7 +38,7 @@ export default class Landing extends Component {
                   color="#33ff4e"
                   opened={false}
                 />
-              </Link>
+            
               <h1 className="display-3 mq">
                 <pre class="htmlcode display-4" style={{ color: "#33ff4e" }}>
                   &lt;Hii..!&gt;
@@ -66,10 +66,8 @@ export default class Landing extends Component {
             </div>
           </div>
         </div>
-        <Switch>
-          <Route exact path="Jumbotron" component={Jumbotron} />
-        </Switch>
-      </BrowserRouter>
+        
+    
     );
   }
 }

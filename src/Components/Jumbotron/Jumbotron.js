@@ -105,10 +105,12 @@ export default class Jumbotron extends Component {
               </div>
               <div class="desc font">
                 <h3>
-                  <b>Anna University,</b> Chennai, India. 
-                  <br></br></h3>
-                <h5><b>Bachelor of Engineering in Computer Science</b></h5>
-                
+                  <b>Anna University,</b> Chennai, India.
+                  <br></br>
+                </h3>
+                <h5>
+                  <b>Bachelor of Engineering in Computer Science</b>
+                </h5>
                 <br></br> <b>Overall grade: 1:1 </b>
                 <br></br>
                 <b>Core Modules:</b> Grid and Cloud Computing, Data structures,
@@ -132,7 +134,8 @@ export default class Jumbotron extends Component {
               <div class="desc font">
                 <h3>
                   <b>National College of Ireland,</b> Chennai, India.
-                  <br></br></h3>
+                  <br></br>
+                </h3>
                 <h5>
                   <b>Master of Science in Cloud Computing,</b> Dublin, Ireland
                 </h5>
