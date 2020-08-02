@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
 
-
 export default class Contact extends Component {
   render() {
     return (
@@ -134,12 +133,15 @@ export default class Contact extends Component {
               Submit
             </div>
           </div>
-       
         </div>
-        
+
         <div
-          class=" fixed button-1 text-center"
-          style={{ paddingBottom: "20px", color: "maroon" }}
+          class="fixed button-1 text-center"
+          style={{
+            paddingBottom: "0px",
+
+            color: "maroon",
+          }}
         >
           <svg
             width="1em"
@@ -170,7 +172,7 @@ export default class Contact extends Component {
             <b> CV</b>
           </a>
         </div>
-     
+
         <footer
           style={{
             position: "left",
