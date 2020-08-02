@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import "./Interests.css";
 
+import { useEffect, useState } from "react";
+import ReactDOM from "react-dom";
 import Carousel from "react-bootstrap/Carousel";
+import { Names } from "./Names";
 
 export default class Interests extends Component {
   constructor(props) {
@@ -11,8 +14,7 @@ export default class Interests extends Component {
     this.state = {
       skills: [
         {
-          name:
-            "https://i.pinimg.com/474x/70/95/72/7095729ffebaad631e83821f535a2dd7.jpg",
+          name: "https://image.flaticon.com/icons/svg/2868/2868182.svg",
           "skill-1": "Reactjs",
           l1: "70",
           "skill-2": "HTML5",
@@ -24,7 +26,7 @@ export default class Interests extends Component {
         },
         {
           name:
-            "https://i.pinimg.com/564x/09/54/86/0954869ade876280e7bd7c573640a9bb.jpg",
+            "https://www.flaticon.com/premium-icon/icons/svg/3045/3045990.svg",
           "skill-1": "Django",
           l1: "80",
           "skill-2": "Django-REST",
@@ -33,8 +35,7 @@ export default class Interests extends Component {
           l3: "68",
         },
         {
-          name:
-            "https://i.pinimg.com/474x/9d/fe/b8/9dfeb8817ad82d4d6cb0bcb33a64ccfa.jpg",
+          name: "https://image.flaticon.com/icons/svg/950/950018.svg",
           "skill-1": "Python",
 
           l1: "80",
@@ -44,8 +45,7 @@ export default class Interests extends Component {
           l3: "78",
         },
         {
-          name:
-            "https://i.pinimg.com/originals/73/9c/38/739c387720671b1b56705bbf19cb0d7e.gif",
+          name: "https://image.flaticon.com/icons/svg/980/980380.svg",
           "skill-1": "MYSQL",
           l1: "72",
           "skill-2": "PostgreSQL",
@@ -54,8 +54,7 @@ export default class Interests extends Component {
           l3: "88",
         },
         {
-          name:
-            "https://i.pinimg.com/474x/8a/f5/4a/8af54a24e78bba6b26552b82c798f232.jpg",
+          name: "https://image.flaticon.com/icons/svg/960/960496.svg",
           "skill-1":
             "AWS Services ( Solution Architect Ceritified - Associate)",
           l1: "75",
@@ -67,8 +66,7 @@ export default class Interests extends Component {
           l4: "89",
         },
         {
-          name:
-            "https://i.pinimg.com/474x/cd/44/e6/cd44e62b9ddb497ce94c8f44b1d0a33f.jpg",
+          name: "https://image.flaticon.com/icons/svg/689/689317.svg",
           "skill-1": "Windows",
           l1: "85",
           "skill-2": "Linux",
@@ -84,30 +82,31 @@ export default class Interests extends Component {
     const { skills } = this.state;
 
     return (
-      <div class="container-fluid" style={{}}>
-        <Container-fluid></Container-fluid>
-        <div class="bgg"></div>
-        <div class="bgg bg2"></div>
-        <div class="bgg bg3"></div>
+      <div
+        class="container-fluid "
+        style={{
+          background: "#fffff1",
+          paddingBottom: "40px",
+          paddingTop: "40px",
+        }}
+      >
         <div>
           <div class="display-4 container text-center">Technical Skills</div>
-          <Carousel className="contentt container  bg-transparent jumbotron ">
+<br></br>
+          <Carousel className="card bg-transparent container jumbotronBG ">
             {skills.length
               ? skills.map((skill) => (
                   <Carousel.Item>
-                    <div class=" container  shadow-lg bg-transparent">
+                    <div class="  ">
                       <div class="row">
                         {" "}
                         <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                          <b class="display-4 text-center" style={{}}>
+                          <b class="text-center" style={{}}>
                             <img
                               src={skill.name}
                               style={{
                                 width: "100%",
                                 height: "100%",
-
-                                position: "center",
-                                textAlign: "center",
                               }}
                               alt="Italian Trulli"
                             />
@@ -124,8 +123,8 @@ export default class Interests extends Component {
                                 now={skill.l1}
                                 label={skill["skill-1"]}
                                 class="pg text-center"
-                                height="300%"
-                                width="200%"
+                                height="100%"
+                                width="100%"
                                 font-weight="bold"
                               />
 
@@ -135,9 +134,9 @@ export default class Interests extends Component {
                                 variant="info"
                                 now={skill.l2}
                                 label={skill["skill-2"]}
-                                class="pg text-center"
-                                height="300%"
-                                width="200%"
+                                class="progress-bar"
+                                height="100%"
+                                width="100%"
                                 font-weight="bold"
                               />
                               <br></br>
@@ -146,8 +145,8 @@ export default class Interests extends Component {
                                 now={skill.l3}
                                 label={skill["skill-3"]}
                                 class="pg text-center"
-                                height="300%"
-                                width="200%"
+                                height="100%"
+                                width="100%"
                                 font-weight="bold"
                               />
                               <br></br>
@@ -157,8 +156,8 @@ export default class Interests extends Component {
                                   now={skill.l4}
                                   label={skill["skill-4"]}
                                   class="pg text-center"
-                                  height="300%"
-                                  width="200%"
+                                  height="100%"
+                                  width="100%"
                                   font-weight="bold"
                                 />
                               </h1>
@@ -168,8 +167,6 @@ export default class Interests extends Component {
                         </div>
                       </div>
                     </div>
-
-                    <Carousel.Caption></Carousel.Caption>
                   </Carousel.Item>
                 ))
               : null}
