@@ -11,7 +11,7 @@ export default class Work extends Component {
       contents: [
         {
           image:
-            "https://images.pexels.com/photos/159935/pexels-photo-159935.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           title: "Residental community connect",
           test: "Connects a residential community with various aspects",
           link: "https://cryptic-escarpment-89060.herokuapp.com/",
@@ -31,7 +31,7 @@ export default class Work extends Component {
         },
         {
           image:
-            "https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.pexels.com/photos/594452/pexels-photo-594452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           title: "Contact Manager",
           test: "A website that displays the contact details",
           link: "https://haricudant.github.io/ContactDetailsReact/#/",

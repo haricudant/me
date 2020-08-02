@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Jumbotron.css";
-import { baby } from './bby.png';
+
 
 export default class Jumbotron extends Component {
   render() {
@@ -87,11 +87,11 @@ export default class Jumbotron extends Component {
                 </h3>
                 <br></br> <b>8th grade in Trinity College of London </b>
                 <br></br>
-                <b>Skills and musical softwares</b>
                 <b>
-                  Programming, Mix and mastering, Logix proX and part-time Tamil
+                  Programming, Mix and mastering, Logic proX and part-time Tamil
                   Lyricist
                 </b>
+                <br></br>
               </div>
             </div>
           </li>

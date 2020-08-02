@@ -110,7 +110,12 @@ export default class Contact extends Component {
         </div>
         <footer
           class="lead card"
-          style={{ position: "left", textAlign: "center", color: "purple", backgroundColor:"halfwhite" }}
+          style={{
+            position: "left",
+            textAlign: "center",
+            color: "white",
+            backgroundColor: "purple",
+          }}
         >
           &copy; Hari Narayanan Suresh Kumar
         </footer>
