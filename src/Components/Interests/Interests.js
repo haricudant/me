@@ -93,7 +93,7 @@ export default class Interests extends Component {
         <div>
           <div class="display-4 container text-center">Technical Skills</div>
 <br></br>
-          <Carousel className="card bg-transparent container jumbotronBG ">
+          <Carousel className="bg-transparent container jumbotronBG ">
             {skills.length
               ? skills.map((skill) => (
                   <Carousel.Item>
@@ -114,7 +114,8 @@ export default class Interests extends Component {
                           <br></br>
                         </div>
                         <div class="col-sm-6 col-md-8 col-lg-9 col-xl-9">
-                          <br></br>
+                        <br></br>
+                        <br></br>
                           <ul>
                             {" "}
                             <div class="">
