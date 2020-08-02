@@ -5,8 +5,14 @@ import "./Jumbotron.css";
 export default class Jumbotron extends Component {
   render() {
     return (
-      <div class="jumbotronBG container-fluid jumbo-cover">
-        <h2 class="display-4 container text-center" style={{ color: "white" }}>
+      <div
+        class="jumbotronBG container-fluid jumbo-cover"
+        style={{ fontFamily: "Montserrat" }}
+      >
+        <h2
+          class="display-4 container text-center"
+          style={{ color: "white", fontFamily: "Montserrat" }}
+        >
           My Timeline
         </h2>
         <div class="text-center font">

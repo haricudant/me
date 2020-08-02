@@ -19,15 +19,12 @@ button {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.display-1  {
+.display-1 {
   color: #33ff4e;
 }
-.caption{
-  
+.caption {
   color: #33ff4e;
-
 }
-
 
 .social-buttons a {
   display: inline-flex;
@@ -71,7 +68,6 @@ button {
   transform: scale(2.2);
 }
 
-
 @media screen and (max-width: 992px) {
   .mq {
     width: 100%;
@@ -83,6 +79,5 @@ button {
   .mq {
     font-size: 3rem;
     widows: 100px;
-    
   }
 }

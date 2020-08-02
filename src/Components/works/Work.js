@@ -54,14 +54,14 @@ export default class Work extends Component {
     return (
       <div
         className="cc back  container-fluid"
-        style={{ paddingTop: "0px" }}
+        style={{ paddingTop: "0px", "font-family": "Montserrat" }}
       >
         <br></br>
         <div class="">
           <h3
             class="display-3 text-center"
-            style={{ color: "white" }}>
- 
+            style={{ "font-family": "Montserrat", color: "17202A" }}
+          >
             Projects
           </h3>
 

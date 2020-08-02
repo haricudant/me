@@ -1,22 +1,27 @@
-#googlemaps {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+.ct-form {
+  padding-top: 20px;
 }
 
-.ct-form {
-  background: purple !important;
-  height: min-content;
-  background-position: hidden;
+.button-1 {
+  border-radius: 50%;
   color: white;
-  background-position: 0%;
-  padding-top: 5%;
-  padding-bottom: 2%;
+  border: none;
+  background-color: white;
+  float: left;
+  width: 50px;
+  padding-bottom: "20px";
+  height: 50px;
+}
 
-  margin: 0;
-  padding-bottom: 1;
-  overflow: hidden;
+@media only screen and (max-width: 600px) {
+  .button-1 {
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: rgb(243, 241, 241);
+    float: right;
+    width: 50px;
+    padding-bottom: "";
+    height: 50px;
+  }
 }

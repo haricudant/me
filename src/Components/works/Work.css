@@ -5,7 +5,7 @@
   animation: gradient 2s ease infinite;
 }
 .back {
-  background-image: url("https://images.pexels.com/photos/1309766/pexels-photo-1309766.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  
   position: relative;
   background-size: cover;
   padding-top: 5%;

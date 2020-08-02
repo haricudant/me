@@ -85,14 +85,19 @@ export default class Interests extends Component {
       <div
         class="container-fluid "
         style={{
-          background: "#fffff1",
+          background: "",
           paddingBottom: "40px",
           paddingTop: "40px",
         }}
       >
         <div>
-          <div class="display-4 container text-center">Technical Skills</div>
-<br></br>
+          <div
+            class="display-3 container text-center"
+            style={{ "font-family": "Montserrat", color: "17202A" }}
+          >
+            Technical Skills
+          </div>
+          <br></br>
           <Carousel className="bg-transparent container jumbotronBG ">
             {skills.length
               ? skills.map((skill) => (
@@ -105,8 +110,9 @@ export default class Interests extends Component {
                             <img
                               src={skill.name}
                               style={{
-                                width: "100%",
-                                height: "100%",
+                                width: "90%",
+                                height: "80%",
+                                paddingLeft: "20px",
                               }}
                               alt="Italian Trulli"
                             />
@@ -114,8 +120,8 @@ export default class Interests extends Component {
                           <br></br>
                         </div>
                         <div class="col-sm-6 col-md-8 col-lg-9 col-xl-9">
-                        <br></br>
-                        <br></br>
+                          <br></br>
+                          <br></br>
                           <ul>
                             {" "}
                             <div class="">
