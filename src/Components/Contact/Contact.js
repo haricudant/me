@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
-import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
 
 export default class Contact extends Component {
   render() {
@@ -136,10 +134,11 @@ export default class Contact extends Component {
               Submit
             </div>
           </div>
-          <hr></hr>
+       
         </div>
+        
         <div
-          class="fixed-bottom button-1 text-center"
+          class=" fixed button-1 text-center"
           style={{ paddingBottom: "20px", color: "maroon" }}
         >
           <svg
@@ -171,6 +170,7 @@ export default class Contact extends Component {
             <b> CV</b>
           </a>
         </div>
+     
         <footer
           style={{
             position: "left",

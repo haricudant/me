@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import "./Landing.css";
 import Typical from "react-typical";
 import Clock from "react-live-clock";
-import Jumbotron from "../Jumbotron/Jumbotron";
+import { useHistory } from "react-router-dom";
 import { NavButton, PlusButton } from "react-svg-buttons";
 // import { Route, Link, BrowserRouter, Switch } from "react-router-dom";
 export default class Landing extends Component {
+  
   render() {
     return (
       <div

@@ -11,17 +11,8 @@
   width: 50px;
   padding-bottom: "20px";
   height: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 0px;
 }
 
-@media only screen and (max-width: 600px) {
-  .button-1 {
-    border-radius: 50%;
-    color: white;
-    border: none;
-    background-color: rgb(243, 241, 241);
-    float: right;
-    width: 50px;
-    padding-bottom: "";
-    height: 50px;
-  }
-}
