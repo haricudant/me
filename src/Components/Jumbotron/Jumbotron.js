@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Jumbotron.css";
 
-
 export default class Jumbotron extends Component {
   render() {
     return (
@@ -141,11 +140,11 @@ export default class Jumbotron extends Component {
               </div>
               <div class="desc font">
                 <h3>
-                  <b>National College of Ireland,</b> Chennai, India.
+                  <b>National College of Ireland,</b> Dublin, Ireland.
                   <br></br>
                 </h3>
                 <h5>
-                  <b>Master of Science in Cloud Computing,</b> Dublin, Ireland
+                  <b>Master of Science in Cloud Computing</b>
                 </h5>
                 <br></br> <b>Overall grade: 2:1 </b>
                 <br></br>
