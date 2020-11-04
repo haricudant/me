@@ -43,7 +43,7 @@ export default class Contact extends Component {
                 >
                   {" "}
                   <div class="" style={{ fontFamily: "Montserrat" }}>
-                    <a href="https://www.instagram.com/hari_narayanan5/">
+                    <a href="https://www.instagram.com/theharinarayanan/">
                       <i class="fab fa-instagram"></i>
                     </a>
 
@@ -166,7 +166,7 @@ export default class Contact extends Component {
           </svg>
           <br></br>
           <a
-            href="https://www.dropbox.com/s/oj5qtk2jvurw87z/Hari%20Narayanan%20Kumar.pdf?dl=0"
+            href="https://www.dropbox.com/s/jth5lbag7jz4z2z/Hari_CV_V1.docx?dl=0"
             style={{ color: "maroon" }}
           >
             <b> CV</b>

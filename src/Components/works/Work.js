@@ -36,6 +36,20 @@ export default class Work extends Component {
           test: "A website that displays the contact details",
           link: "https://haricudant.github.io/ContactDetailsReact/#/",
         },
+        {
+          image:
+            "https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          title: "Weather Calculator",
+          test: "A website that displays the Weather location of current and other user",
+          link: "https://haricudant.github.io/test/#/",
+        },
+        {
+          image:
+            "https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+          title: "Research Thesis",
+          test: "My masters thesis",
+          link: "http://trap.ncirl.ie/4146/",
+        },
       ],
     };
   }
