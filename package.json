@@ -10,7 +10,7 @@
     "bootstrap": "^4.5.0",
     "m-btn": "^1.0.13",
     "mdb": "^0.1.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "progress-bar-animated": "^1.0.2",
     "pure-react-carousel": "^1.27.1",
     "re-carousel": "^2.4.0",
